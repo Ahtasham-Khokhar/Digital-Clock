@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chrono | Professional Digital Clock</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Plus+Jakarta+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="Home">
+        <div class="background-blobs">
+            <div class="blob circle"></div>
+            <div class="blob square"></div>
+        </div>
+        
+        <header>
+            <h1>Digital Clock</h1>
+            <p id="date-string">Saturday, April 25</p>
+        </header>
+
+        <div class="clock-card">
+            <div class="unit">
+                <span id="hours">00</span>
+                <label>HOURS</label>
+            </div>
+            <div class="separator">:</div>
+            <div class="unit">
+                <span id="min">00</span>
+                <label>MINUTES</label>
+            </div>
+            <div class="separator">:</div>
+            <div class="unit">
+                <span id="sec">00</span>
+                <label>SECONDS</label>
+            </div>
+            <div class="period-box">
+                <span id="am">AM</span>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
